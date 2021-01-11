@@ -1,4 +1,4 @@
-# CSCA48 Tutorial Notes for Fall 2020
+# CSCA48 Tutorial Notes for Winter 2021
 
 For anything important that is missing/incorrect information, contact us.
 

@@ -1,8 +1,8 @@
 ---
-title: CSCA48 Fall 2020
+title: CSCA48 Winter 2021
 ---
 
-Hello, everyone! This website contains tutorial notes / additional exercises for CSCA48 Fall 2020 session.
+Hello, everyone! This website contains tutorial notes / additional exercises for CSCA48 Winter 2021 session.
 
 ---
 

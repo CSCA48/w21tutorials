@@ -1,7 +1,7 @@
 ---
-title: Week 1 Tutorial
+title: Week 0 Tutorial
 sidebar: 1
-sidebar-title: Week 1
+sidebar-title: Week 0
 ---
 
 No tutorial in the first week of class! However, make sure you've done the following:

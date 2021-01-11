@@ -15,17 +15,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.data.authors[site.author].email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CSCA48 Fall 2020
+title: CSCA48 Winter 2021
 description: Tutorial Notes
-author: [mustafa] # Edit also the author details in "_data/authors.yml" (multiple authors possible for a post).
-url: "https://csca48s20.github.io" # The base hostname & protocol for your site, e.g. http://example.com.
-baseurl: "/tutorials" # The subpath of your site, e.g. /blog.
+author: [angela] # Edit also the author details in "_data/authors.yml" (multiple authors possible for a post).
+url: "https://csca48.github.io" # The base hostname & protocol for your site, e.g. http://example.com.
+baseurl: "/w21tutorials" # The subpath of your site, e.g. /blog.
 permalink: /posts/:year-:month-:day-:title # Jekyll default is /:categories/:year/:month/:day/:title.html - see also https://jekyllrb.com/docs/permalinks/
 lang: en # The base language of your site, can be overwritten on a page or post - for UI translations see also the files under _data/locales/. If you finished an additional language file please create a pull request to make it availabe for all users :-)
 show_lang_in_post_listings: true # Home page, archive, post lists on category and tag pages (useful, when you deliver mixed content).
 feed_limit: 25
 styles: # If you need more control over the layout please see /assets/main.scss and _sass/sidebar
-  brand-color: "#d0a4eb" # Used for the sidebar and the links
+  brand-color: "#7dbfbe" # Used for the sidebar and the links
   link-text-decoration: underline # On light brand colors you may want to use underline for the links
 disqus:
   shortname:
