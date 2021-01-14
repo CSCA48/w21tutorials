@@ -1,3 +1,9 @@
+---
+title: Compiling your first C Program
+sidebar-legal: 16
+sidebar-title: Compilation
+---
+
 # Setup Check
 
 At this point in time, hopefully you have followed to install MinGW onto your machine. Typing ``gcc --version`` should yield something similar to the following output:
