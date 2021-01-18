@@ -137,7 +137,7 @@ You won't always have all the functions available to you directly. Sometimes it 
 
 ---
 
-Write a program that prints out a graph of the function sin(x) for values of x from 0 to 2π in increments of 0.25. Here's some example output (courtesy Angela):
+Write a program that prints out a graph of the function sin(x) for values of x from 0 to 2π in increments of 0.25. Here's some example output:
 
 ![ex1](W2_Ex1.png)
 
