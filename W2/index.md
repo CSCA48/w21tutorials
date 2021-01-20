@@ -16,7 +16,7 @@ sidebar-title: Week 1
 
 ---
 
-You all should already have `gcc` working on your local machines, and be ready to attempt exercise 0 once it comes out. Today, we're going to go over C fundamentals, and then look at a few exercises. Here's a list of few things you should already know:
+You all should already have `gcc` working on your local machines, and be ready to attempt exercise 1 once it comes out. Today, we're going to go over C fundamentals, and then look at a few exercises. Here's a list of few things you should already know:
 
 
 ---
