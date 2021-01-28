@@ -94,7 +94,7 @@ If you're working digitally, you can use this template to draw on:
 
 ### Strings
 
-Strings are also known as arrays of characterss, but with an special add-on: the end-of-string delimeter `\0`. The end-of-string delimeter indicates when the string ends.
+Strings are also known as arrays of characters, but with an special add-on: the end-of-string delimiter `\0`. The end-of-string delimiter indicates when the string ends.
 
 Let's look at the following piece of code, what do you think it will print out?
 
@@ -170,7 +170,7 @@ int main() {
 
     swap(first, second);
 
-    printf("F: %s - S: %s\n", first, second);
+    printf("F: %s\nS: %s\n", first, second);
     // Expected:
     // F: It's beginning to look a lot like Christmas
     // S: Christmas is in eleven months!
