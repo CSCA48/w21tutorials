@@ -94,7 +94,7 @@ If you're working digitally, you can use this template to draw on:
 
 ### Strings
 
-Strings are also known as arrays of characterss, but with an special add-on: the end-of-string delimeter `\0`. The end-of-string delimeter indicates when the string ends.
+Strings are also known as arrays of characters, but with an special add-on: the end-of-string delimiter `\0`. The end-of-string delimiter indicates when the string ends.
 
 Let's look at the following piece of code, what do you think it will print out?
 
@@ -170,7 +170,7 @@ int main() {
 
     swap(first, second);
 
-    printf("F: %s - S: %s\n", first, second);
+    printf("F: %s\nS: %s\n", first, second);
     // Expected:
     // F: It's beginning to look a lot like Christmas
     // S: Christmas is in eleven months!
@@ -184,7 +184,7 @@ int main() {
 
 ## Let's go further
 
-Write a function `strfind()` that *searches* for a given string in the specified main string, and returns the index of the first occurrence of the given string. If there is no match it returns `-1`. This will be extremely useful in your exercie 1. Here is some example output for this function:
+Write a function `strfind()` that *searches* for a given string in the specified main string, and returns the index of the first occurrence of the given string. If there is no match it returns `-1`. This will be extremely useful in your exercise 1. Here is some example output for this function:
 
 ```c
 strfind("My name is Angela", "Angela") -> 11
