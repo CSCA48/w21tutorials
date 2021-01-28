@@ -184,7 +184,7 @@ int main() {
 
 ## Let's go further
 
-Write a function `strfind()` that *searches* for a given string in the specified main string, and returns the index of the first occurrence of the given string. If there is no match it returns `-1`. This will be extremely useful in your exercie 1. Here is some example output for this function:
+Write a function `strfind()` that *searches* for a given string in the specified main string, and returns the index of the first occurrence of the given string. If there is no match it returns `-1`. This will be extremely useful in your exercise 1. Here is some example output for this function:
 
 ```c
 strfind("My name is Angela", "Angela") -> 11
