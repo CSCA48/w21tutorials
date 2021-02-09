@@ -180,6 +180,7 @@ left
    - A square 300 x 300 where the top left corner is located at 100, 100.
 </details>
 
+
 Of course, we're also programmers so we hate repetitive instructions! In the assignment you'll also implement support for a loop structure that lets you do something like:
 
 ```
