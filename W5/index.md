@@ -152,3 +152,47 @@ int main() {
 ```
 
 ---
+
+# Assignment 1 !
+
+Assignment 1 was posted this week and as we always say, it's important for you to start it early enough so we can answer any questions ahead of time. Make sure you read the handout and the starter code. However, it is okay if you do not fully undertand what you need to do as you are just learning some of the material. A1 makes you implement a program that can read instructions and draw out images (inspired by [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language))). 
+
+The general idea is that you have a turtle that starts off at the top-left of the screen, and follows all the instructions given to move around, drawing a line along the path it takes. Let's take a simple example:
+
+```
+penup
+forward 100
+right
+forward 100
+pendown
+forward 300
+left
+forward 300
+left
+forward 300
+left
+forward 300
+left
+
+```
+<details> 
+  <summary>What do you think this draws onto the screen? </summary>
+   - A square 300 x 300 where the top left corner is located at 100, 100.
+</details>
+
+Of course, we're also programmers so we hate repetitive instructions! In the assignment you'll also implement support for a loop structure that lets you do something like:
+
+```
+penup
+forward 100
+right
+forward 100
+pendown
+loop 4
+  forward 300
+  left
+```
+
+Once you are done the assignment, don't forget to test <a href="https://github.com/CSCA48/w21tutorials/raw/master/W5/angelas-surprise.txt" download>this file</a> which has the turtle instructions to Angela's favorite drawing 😃 (Right click, Save link as...). Give it a few seconds, its a LOT of instructions.
+
+---
