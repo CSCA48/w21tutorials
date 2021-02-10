@@ -196,4 +196,6 @@ loop 4
 
 Once you are done the assignment, don't forget to test <a href="https://github.com/CSCA48/w21tutorials/raw/master/W5/angelas-surprise.txt" download>this file</a> which has the turtle instructions to Angela's favorite drawing 😃 (Right click, Save link as...). Give it a few seconds, its a LOT of instructions.
 
+If you want to create fun instructions for your pictures, you can generate them using our tool <a href="https://csca48.github.io/w21tutorials/img2turtle/">img2turtle</a>.
+
 ---
