@@ -1,7 +1,7 @@
 ---
 title: Week 6 Tutorial
 sidebar: 7
-sidebar-title: Week 7
+sidebar-title: Week 6
 ---
 
 ---
