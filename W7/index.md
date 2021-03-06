@@ -58,7 +58,7 @@ Create a function ```insert_delivery``` to insert the deliveries from TAs into t
 
 ---
 
-## Task 3: Inserting Priority Deliveries
+## Task 4: Inserting Priority Deliveries
 
 Brian, Paco and Abbas found out that Angela is giving cupcakes to the other TAs and now they want to try some too. However, they want their orders before than everyone else!
 
