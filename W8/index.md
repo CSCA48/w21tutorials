@@ -113,9 +113,9 @@ void selectionSort(int arr[], int n) {
 
 int main(){
   int array[] = {33, 12, 45, 9, 24};
-
-  selectionSort(array, 5);
-
+  int n = 5;
+  selectionSort(array, n);
+  
   // Print to double check
   for (int i = 0; i < n; i++){
     printf("%d ", array[i])
