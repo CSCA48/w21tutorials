@@ -89,7 +89,7 @@ BST_Node *BST_search(BST_Node *root, int key) {
 }
 ```
 
-#### Exercise: Find the smallest element in the BST
+**Exercise: Find the smallest element in the BST**
 
 By the definition of BST, the smallest value will be the very left node. Complete the following function that returns the smallest key of the BST.
 
