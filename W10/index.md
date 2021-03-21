@@ -172,7 +172,7 @@ int main(){
     User* angela = create_user("@_angelazb");
     User* brian = create_user("@brianUTSC");
     User* willy = create_user("@ItsWillSong");
-    User* charles = create_user("@ItsNotCharles");
+    User* charles = create_user("@kThisIsCvpv");
     // Angela will follow Brian and Charles on twitter
     follow_user(angela, brian);
     follow_user(angela, charles);
