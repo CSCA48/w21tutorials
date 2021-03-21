@@ -117,9 +117,9 @@ The **adjacency matrix** is a 2D array of size _N_ x _N_, where _N_ is the numbe
 
 Represent **G<sub>1</sub>** and **G<sub>2</sub>** using Adjacency lists and matrices.
 
-# Followers distance
+# Who is following me?
 
-Read the code below and complete the two empty functions to add into the following list and to find the minimum distance (i.e. number of edges) between two twitter users.
+Read the code below and complete the two empty functions to follow a user and to check if a user is being followed by someone. Once you are done, how would you implement the same using adjacency matrices?
 
 ```c
 #include <string.h>
@@ -135,9 +135,6 @@ typedef struct user_struct {
     char twitter_handle[MAX_STR_LEN];
     // List of accounts following
     struct following_node_struct* following;
-    // Marker to know if we have visited the node
-    // It will come handy
-    bool visited;
 } User;
 
 // LL for list of accounts following
@@ -166,27 +163,32 @@ void follow_user(User* user, User* new_follower) {
     // TODO
 }
 
-// Minimum following distance
-int get_distance(User* a, User* b){
+int is_following(User* a, User* b){
     // TODO
-    // You can even use helper functions!
+    // If user b is following a return 1, return 0 otherwise
 }
 
 int main(){
     // Let's create a couple of users
-    User* angela = create_user("_angelazb");
-    User* brian = create_user("brianUTSC");
-    User* will = create_user("willysong");
-    // Angela will follow Brian on twitter
+    User* angela = create_user("@_angelazb");
+    User* brian = create_user("@brianUTSC");
+    User* willy = create_user("@ItsWillSong");
+    User* charles = create_user("@ItsNotCharles");
+    // Angela will follow Brian and Charles on twitter
     follow_user(angela, brian);
-    // Brian will follow Willy
-    follow_user(brian,will);
-    int angela_and_brian = get_distance(angela, brian);
-    // Should return 1
-    printf("Connections between Angela and Brian: %d\n", angela_and_brian);
-    // Should return 2
-    int angela_and_will = get_distance(angela, will);
-    printf("Connections between Angela and Will: %d\n", angela_and_will);
+    follow_user(angela, charles);
+    // Brian will follow Angela back
+    follow_user(brian, angela);
+    // Willy will follow Angela and Charles
+    follow_user(willy,angela);
+    follow_user(willy,charles);
+    // Now, let's check who follows who
+    // Willy wants to know if Brian follows him :(
+    int willy_brian = is_following(willy, brian);
+    printf("Does Brian follow Willy? %d\n", willy_brian);
+    // Charles wants to know if Angela follows him :)
+    int charles_angela = is_following(charles, angela);
+    printf("Does Angela follow Charles? %d\n", angela_charles);
 }
 
 ```
