@@ -153,7 +153,6 @@ User* create_user(char* handle){
     if(new_user == NULL) return NULL;
     new_user->following = NULL;
     strcpy(new_user->twitter_handle, handle);
-    new_user->visited = false;
 
     return new_user;
 }
