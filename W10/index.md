@@ -59,7 +59,7 @@ For an undirected graph, a node **v** is a **neighbour** of the node **u** if th
 
 <span style="color:cornflowerblue">_Example:_</span> In **G<sub>1</sub>**, the neighbour of Mustafa is Paco.
 
-For a directed graph, a node **v** is a **in-neighbour** of the node **u** if there exists an edge **{u,v}** from **u** to **v**. A node **v** is a **out-neighbour** of the node **u** if there exists an edge **{v,u}** from **v** to **u**. 
+For a directed graph, a node **v** is a **in-neighbour** of the node **u** if there exists an edge **{v,u}** from **v** to **u**. A node **v** is a **out-neighbour** of the node **u** if there exists an edge **{u,v}** from **u** to **v**. 
 
 <span style="color:cornflowerblue">_Example:_</span> In **G<sub>2</sub>**, @Raptors is an in-neighbour of @UTSC, and @UTSC is an out-neightbour of @Raptors.
 
