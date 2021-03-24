@@ -61,7 +61,7 @@ For an undirected graph, a node **v** is a **neighbour** of the node **u** if th
 
 For a directed graph, a node **v** is a **in-neighbour** of the node **u** if there exists an edge **{v,u}** from **v** to **u**. A node **v** is a **out-neighbour** of the node **u** if there exists an edge **{u,v}** from **u** to **v**. 
 
-<span style="color:cornflowerblue">_Example:_</span> In **G<sub>2</sub>**, @Raptors is an in-neighbour of @UTSC, and @UTSC is an out-neightbour of @Raptors.
+<span style="color:cornflowerblue">_Example:_</span> In **G<sub>2</sub>**, @Raptors is an out-neighbour of @UTSC, and @UTSC is an in-neightbour of @Raptors.
 
 ## Neighbourhood
 
@@ -107,7 +107,7 @@ Find the neighbourhood and degree of each node in **G<sub>1</sub>** and **G<sub>
 
 ## Adjacency list
 
-The **adjacency list** is an array of size _N_ with one entry per node, where _N_ is the number of nodes in the grpah. The _i<sup>th</sup>_ entry of the array contains a pointer to a linked list that stores the indexes of the nodes that _i_ is connected to (the neighbours of _i_).
+The **adjacency list** is an array of size _N_ with one entry per node, where _N_ is the number of nodes in the graph. The _i<sup>th</sup>_ entry of the array contains a pointer to a linked list that stores the indexes of the nodes that _i_ is connected to (the neighbours of _i_).
 
 ## Adjacency matrix
 
