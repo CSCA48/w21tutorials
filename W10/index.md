@@ -187,7 +187,7 @@ int main(){
     printf("Does Brian follow Willy? %d\n", willy_brian);
     // Charles wants to know if Angela follows him :)
     int charles_angela = is_following(charles, angela);
-    printf("Does Angela follow Charles? %d\n", angela_charles);
+    printf("Does Angela follow Charles? %d\n", charles_angela);
 }
 
 ```
