@@ -133,7 +133,7 @@ Read the code below and complete the two empty functions to follow a user and to
 typedef struct user_struct {
     // Twitter Handle
     char twitter_handle[MAX_STR_LEN];
-    // List of accounts following
+    // List of accounts this user is following
     struct following_node_struct* following;
 } User;
 
@@ -158,7 +158,7 @@ User* create_user(char* handle){
 }
 
 // User following
-void follow_user(User* user, User* new_follower) {
+void follow_user(User* user, User* to_follow) {
     // TODO
 }
 
