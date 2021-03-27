@@ -27,7 +27,7 @@ We have solved this problem in a non-recursive way multiple times before. There 
 
 ### Exercise:
 
-Implement the larger function using loops, once you find a working solution, implement it using recursion.
+Implement the larger function using loops, and once you find a working solution, implement it using recursion.
 
 ```c
 #include <stdio.h>
@@ -46,11 +46,11 @@ int main() {
 
 ## Find if a string is a palindrome or not
 
-A palindrome is a word or phrase that reads the same backward as forward. Implement a recursive function to find is a word is a palindrome or not.
+A palindrome is a word or phrase that reads the same backward as forward. Implement a recursive function to find if a word is a palindrome or not.
 
 ### Exercise:
 
-Implement the isPalindrome function using loops, once you find a working solution, implement it using recursion.
+Implement the isPalindrome function using loops, and once you find a working solution, implement it using recursion.
 
 ```c
 #include <stdio.h>
