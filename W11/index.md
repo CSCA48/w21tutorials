@@ -27,7 +27,7 @@ We have solved this problem in a non-recursive way multiple times before. There 
 
 ### Exercise:
 
-Implement the larger function using loops, and once you find a working solution, implement it using recursion.
+Implement the largest function using loops, and once you find a working solution, implement it using recursion.
 
 ```c
 #include <stdio.h>
@@ -37,7 +37,7 @@ int main() {
     int n = 5;
 
     // Implement the large function!
-    int largest_element = large(array, n);
+    int largest_element = largest(array, n);
 
     printf("The largest number of the list is: %d\n", largest_element);
 }
