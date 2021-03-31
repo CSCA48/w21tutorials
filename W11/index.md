@@ -23,7 +23,7 @@ Assume you have a problem of some type:
 
 ## Find the Largest number in an array
 
-We have solved this problem in a non-recursive way multiple times before. There are multiple ways we can solve it using recursion too. Sometimes using a helper can be useful, specially if you need to add more parameters to a function.
+We have solved this problem in a non-recursive way multiple times before. There are multiple ways we can solve it using recursion too. Sometimes using a helper can be useful, especially if you need to add more parameters to a function.
 
 ### Exercise:
 
@@ -70,3 +70,29 @@ int main() {
 }
 ```
 ---
+
+## Find the factorial of the number
+
+A factorial is when you multiply a number by all the numbers below it. Implement a recursive function to calculate the factorial of a number.
+
+### Exercise:
+
+Implement the factorial function using loops, and once you find a working solution, implement it using recursion.
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  int number = 6;
+  int result = 0;
+
+  // Implement the factorial function!
+  result = factorial(number);
+
+  printf("Number = %d\n", number);
+  printf("Factorial = %d\n", result);  
+  
+  return 0;
+}
+```
