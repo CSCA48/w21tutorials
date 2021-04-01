@@ -5,7 +5,7 @@ sidebar-title: Week 10
 ---
 
 
-<p align="center"> <a href=https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Additional A3 Walkthrough </a> </p>
+<p align="center"> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Additional A3 Walkthrough </a> </p>
 
 ---
 
