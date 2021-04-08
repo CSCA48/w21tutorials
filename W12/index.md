@@ -18,7 +18,7 @@ int main(){
    int base, power, result;
    printf("Enter the base and power: ");
    scanf("%d %d",&base, &power);
-   // base ^ power
+   // base ^ power, power >= 0
    result = pow_recursive(base, power);
    printf("%d to the power of %d is %d\n", base, power, result);
    return 0;
