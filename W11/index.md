@@ -56,7 +56,7 @@ Implement the isPalindrome function using loops, and once you find a working sol
 #include <stdio.h>
 #include <string.h>
 // Not necessary!
-#include <stdbool.h>
+// #include <stdbool.h>
 
 #define MAX_LENGTH 1024
 
